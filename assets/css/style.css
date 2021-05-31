@@ -721,6 +721,9 @@ ul {
   padding: 0px 8px;
 }
 @media screen and (min-width: 800px) {
+  ._name{
+    overflow-x: hidden;
+  }
    .modal , .body ,  .path , .task_footer , .file_task , .processing {
     width: 70%;
     margin-left: 30%;
