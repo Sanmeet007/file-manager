@@ -1,6 +1,6 @@
 # MonsterPress File Manager 
 
-![Directory Listing](https://sanmeet007.github.io/mp/img-7.png)
+![Monsterpress File Manager](https://sanmeet007.github.io/mp/main.png)
 
 ## Overview 
 * Open Source, light and extremely simple
