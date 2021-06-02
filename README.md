@@ -36,6 +36,6 @@ Table of contents ( Commands ) :
 
  
 For complete documentation visit : 
-https://github.com/sanmeet007/monsterpress-fms/wiki
+https://github.com/sanmeet007/monsterpress-fms/wiki/Documentation
 
 Developer contact : ssanmeet123@gmail.com 
