@@ -7,9 +7,9 @@
 * Uses Ajax to do various tasks ! 
 * Mobile friendly view for touch devices
 * Basic features likes Create, Delete, Modify, View ,  Download, Copy or  Move files  , multi-selection  and much more.
-* Fast , reliable and multi-runtime **Pluploader file uploader**  configured. Upload  multiple files ( see Extension section for supported file extensions ) 
+* Fast , reliable and multi-runtime **Pluploader file uploader**  configured. Upload  multiple files
 * Ability to create folders and files
-* Ability to compress, extract files (zip, tar)
+* Ability to compress, extract files (zip)
 * **Ace Editor** ( for editing purposes )   - Syntax highlighting for over 150+ languages, Over 35+ themes with your favorite programming styles . 
 * Lots more..
 
