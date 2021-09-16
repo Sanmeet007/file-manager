@@ -69,7 +69,7 @@ $path = $_GET['path'];
       $time =  date("F d Y h:i A", $time);
       
                   echo '
-    <div onclick="reload('.$id.')" class="list-style" id="list-style-'.$id.'"  data-path="'.$path.'/'.$file.'"  data-type="'.$type.'">
+    <div onclick="reload('.$id.')" tabindex="0" onkeypress="this.click()" class="list-style" id="list-style-'.$id.'"  data-path="'.$path.'/'.$file.'"  data-type="'.$type.'">
           <div class="_checkbox">
             <!-- For  Check Box -->
             <label for="check_'.$id.'">
@@ -200,7 +200,7 @@ $path = $_GET['path'];
       $time =  date("F d Y h:i A", $time);
       
                   echo '
-    <div onclick="reload('.$id.')" class="list-style" id="list-style-'.$id.'" data-path="'.$path.'/'.$file.'"  data-type="'.$class.'">
+    <div onclick="reload('.$id.')" tabindex="0"  onkeypress="this.click()" class="list-style" id="list-style-'.$id.'" data-path="'.$path.'/'.$file.'"  data-type="'.$class.'">
           <div class="_checkbox">
             <!-- For  Check Box -->
             <label for="check_'.$id.'">
