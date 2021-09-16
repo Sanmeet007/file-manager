@@ -62,6 +62,9 @@ body {
   }
 }
 
+.folder-list *{
+      border-color: transparent!important;
+}
 ._checkbox {
   display: flex;
   justify-content: center;
@@ -90,8 +93,28 @@ body {
 .list-style:active {
   background: rgba(7,4,8,0.233);
 }
-.list-style:hover {
+.folder-list:focus{
+    background: #3a3a3a;
+}
+
+.list-style:focus{
+   background:rgb(26,26,26);
+}
+.list-style:hover
+{
   background: rgb(26,26,26);
+}
+.select-1{
+    cursor: pointer;
+}
+.gainFocus:focus{
+    background: #F29F1B;
+    color:#010101;
+}
+
+.switch-btn:hover,
+.switch-btn:focus{
+    box-shadow: 0 0 1px 5px rgba(255,255,255, 0.5);
 }
 ._fileDetails {
   font-size: 12px;
@@ -415,12 +438,16 @@ body {
   border-radius: 5px;
   margin-right: 10px
 }
+.reset{
+    cursor: pointer;
+}
 .close {
   width: 90%;
   margin: auto;
   padding: 5px;
   border-bottom: none;
   border-radius: 8px;
+  cursor:pointer;
 }
 .task:active {
   opacity: 0.8;
@@ -697,7 +724,7 @@ ul {
 .active {
   display: none;
 }
-.folder_icon {}
+
 
 .load {
   color: white;
