@@ -31,6 +31,10 @@ date_default_timezone_set("Asia/Calcutta");
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width  , initial-scale=1.0">
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
   <title>MonsterPress - File Manager</title>
 
 
@@ -93,24 +97,24 @@ date_default_timezone_set("Asia/Calcutta");
     <div class="path">
 
       <div class="task_header_item">
-        <div class="_previous" onclick="previous()">
+        <div class="_previous gainFocus" tabindex="0" onkeypress="previous()" onclick="previous()">
           <i class="fas fa-arrow-left"></i>
         </div>
-        <div class="_home" onclick="re_reload('..')">
+        <div class="_home gainFocus" tabindex="0" onclick="re_reload('..')"  onkeypress="re_reload('..')">
           <i class="fas fa-home"></i>
         </div>
         <!-- Disable this input -->
-        <input class="__path" type="text" disabled />
-        <div class="_menu" onclick="regulator()">
+        <input class="__path"  type="text" disabled />
+        <div class="_menu gainFocus"   tabindex="0"  onclick="regulator()" onkeypress="this.click()">
           <span class="_span"> <i class="fas fa-ellipsis-v"></i></span>
           <div class="menu_items">
-            <div class="item" onclick="create('folder')">
+            <div class="item gainFocus"  tabindex="0"  onkeypress="this.click()" onclick="create('folder')">
               New  Folder
             </div>
-            <div class="item" onclick="create('file')">
+            <div class="item gainFocus"  tabindex="0"  onkeypress="this.click()"  onclick="create('file')">
               New File
             </div>
-            <div class="item" onclick="modal_open()">
+            <div class="item gainFocus"  tabindex="0"  onkeypress="this.click()" onclick="modal_open()">
               Upload File
             </div>
           </div>
@@ -120,7 +124,7 @@ date_default_timezone_set("Asia/Calcutta");
       <br>
       <div class="_switching">
         <div class="switch_text">
-          <span class="drawer" onclick="drawer()">
+          <span class="drawer gainFocus" onclick="drawer()"  onkeypress="drawer()" tabindex="0">
             <i class="fas fa-bars"></i>
           </span>
 
@@ -136,7 +140,7 @@ date_default_timezone_set("Asia/Calcutta");
 
         </div>
         <div class="my_switch">
-          <span id="switch"><span class="switch-btn"></span></span>
+          <span id="switch"><span  tabindex="0" onkeypress="this.click()"  class="switch-btn"></span></span>
         </div>
       </div>
 
