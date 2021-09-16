@@ -16,7 +16,7 @@ if (is_dir($dir)) {
     if (is_dir("$dir/$folder")) {
 
       if ($folder != '.' && $folder != '..') {
-        echo "<li data-path='$dir/$folder'>
+        echo "<li tabindex='0' class='folder-list' data-path='$dir/$folder' onkeypress='re_reload(`$dir/$folder`)'>
              <span class='folder_icon'>
               <i class='fas fa-folder'></i>
              </span>
