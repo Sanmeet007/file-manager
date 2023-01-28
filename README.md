@@ -1,19 +1,20 @@
-# MonsterPress File Manager 
+# MonsterPress File Manager
 
 ![Monsterpress File Manager](https://sanmeet007.github.io/mp/main.png)
 
-## Overview 
+## Overview
+
 * Open Source, light and extremely simple
-* Uses Ajax to do various tasks ! 
+* Uses Ajax to do various tasks !
 * Mobile friendly view for touch devices
 * Basic features likes Create, Delete, Modify, View ,  Download, Copy or  Move files  , multi-selection  and much more.
 * Fast , reliable and multi-runtime **Pluploader file uploader**  configured. Upload  multiple files
 * Ability to create folders and files
 * Ability to compress, extract files (zip)
-* **Ace Editor** ( for editing purposes )   - Syntax highlighting for over 150+ languages, Over 35+ themes with your favorite programming styles . 
+* **Ace Editor** ( for editing purposes )   - Syntax highlighting for over 150+ languages, Over 35+ themes with your favorite programming styles .
 * Lots more..
 
-## Keyboard Shortcuts 
+## Keyboard Shortcuts
 
 ```
 Table of contents ( Commands ) : 
@@ -34,8 +35,7 @@ Table of contents ( Commands ) :
 
 ```
 
- 
-For complete documentation visit : 
-https://github.com/sanmeet007/monsterpress-fms/wiki/Documentation
+For complete documentation visit :
+<https://github.com/Sanmeet007/file-manager/wiki/Documentation>
 
-Developer contact : ssanmeet123@gmail.com 
+Developer contact : ssanmeet123@gmail.com
