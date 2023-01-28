@@ -16,7 +16,7 @@
 
 ## Keyboard Shortcuts
 
-```
+```txt
 Table of contents ( Commands ) : 
 
        CTRL + ALT + Z = Zip
