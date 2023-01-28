@@ -1,20 +1,17 @@
 <?php
+
 /**
-*  File Management System
-
-* last major  Version 1.3.7
-* (Upload corrected )
-
-* current version 1.4.0
-* (Added Plupload support --> Chunk file uploading enabled now :) )
-*
-**/
+ *  File Management System
+ * current version 1.4.0
+ * (Added Plupload support --> Chunk file uploading enabled now :) )
+ *
+ **/
 
 $http = $_SERVER['HTTP_HOST'];
 if (isset($_SERVER['HTTPS'])) {
-  $http = "https://".$http;
+  $http = "https://" . $http;
 } else {
-  $http = "http://".$http;
+  $http = "http://" . $http;
 }
 if (isset($_GET['path'])) {
   //$path = $_GET['path'];
@@ -27,12 +24,13 @@ date_default_timezone_set("Asia/Calcutta");
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width  , initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 
   <title>MonsterPress - File Manager</title>
@@ -59,6 +57,7 @@ date_default_timezone_set("Asia/Calcutta");
   <link rel="stylesheet" href="assets/css/style.css" title="" type="text/css" />
 
 </head>
+
 <body>
 
   <div class="modal">
@@ -100,21 +99,21 @@ date_default_timezone_set("Asia/Calcutta");
         <div class="_previous gainFocus" tabindex="0" onkeypress="previous()" onclick="previous()">
           <i class="fas fa-arrow-left"></i>
         </div>
-        <div class="_home gainFocus" tabindex="0" onclick="re_reload('..')"  onkeypress="re_reload('..')">
+        <div class="_home gainFocus" tabindex="0" onclick="re_reload('..')" onkeypress="re_reload('..')">
           <i class="fas fa-home"></i>
         </div>
         <!-- Disable this input -->
-        <input class="__path"  type="text" disabled />
-        <div class="_menu gainFocus"   tabindex="0"  onclick="regulator()" onkeypress="this.click()">
+        <input class="__path" type="text" disabled />
+        <div class="_menu gainFocus" tabindex="0" onclick="regulator()" onkeypress="this.click()">
           <span class="_span"> <i class="fas fa-ellipsis-v"></i></span>
           <div class="menu_items">
-            <div class="item gainFocus"  tabindex="0"  onkeypress="this.click()" onclick="create('folder')">
-              New  Folder
+            <div class="item gainFocus" tabindex="0" onkeypress="this.click()" onclick="create('folder')">
+              New Folder
             </div>
-            <div class="item gainFocus"  tabindex="0"  onkeypress="this.click()"  onclick="create('file')">
+            <div class="item gainFocus" tabindex="0" onkeypress="this.click()" onclick="create('file')">
               New File
             </div>
-            <div class="item gainFocus"  tabindex="0"  onkeypress="this.click()" onclick="modal_open()">
+            <div class="item gainFocus" tabindex="0" onkeypress="this.click()" onclick="modal_open()">
               Upload File
             </div>
           </div>
@@ -124,7 +123,7 @@ date_default_timezone_set("Asia/Calcutta");
       <br>
       <div class="_switching">
         <div class="switch_text">
-          <span class="drawer gainFocus" onclick="drawer()"  onkeypress="drawer()" tabindex="0">
+          <span class="drawer gainFocus" onclick="drawer()" onkeypress="drawer()" tabindex="0">
             <i class="fas fa-bars"></i>
           </span>
 
@@ -140,7 +139,7 @@ date_default_timezone_set("Asia/Calcutta");
 
         </div>
         <div class="my_switch">
-          <span id="switch"><span  tabindex="0" onkeypress="this.click()"  class="switch-btn"></span></span>
+          <span id="switch"><span tabindex="0" onkeypress="this.click()" class="switch-btn"></span></span>
         </div>
       </div>
 
@@ -257,10 +256,11 @@ date_default_timezone_set("Asia/Calcutta");
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(".__path").val("<?php echo $path; ?>");
-    let  parent_path = "<?php echo $path ?>";
+    let parent_path = "<?php echo $path ?>";
   </script>
   <script src="assets/js/preload.js" type="text/javascript" charset="utf-8"></script>
   <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
 
 </body>
+
 </html>
